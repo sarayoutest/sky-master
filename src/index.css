@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* للغة العربية */
+body:lang(ar) {
+  font-family: 'Cairo', sans-serif !important;
+}
+
+/* للغة الإنجليزية */
+body:lang(en) {
+  font-family:'Cairo', sans-serif !important;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}

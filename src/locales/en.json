@@ -1,0 +1,32 @@
+{
+  "welcome_title": "Welcome to",
+  "hero_main_title": "The Ultimate aerial destination",
+  "hero_subtitle": "your adventure takes flight here!",
+  "btn_learn_more": "LEARN MORE →",
+  "experience_text": "EXPERIENCE THE PURE FREEDOM WITH US NOW!",
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "store": "Store",
+    "work": "Our Work",
+    "contact": "Contact Us",
+    "indiv_services": "Individuals Services",
+    "corp_services": "Corporate Services",
+    "menu": "Menu",
+    "services_names": {
+    "paratrikeairtours": "Paratrike Air Tours",
+    "paramotortraining": "Paramotor Training",
+    "otherservices": "Other Services",
+    "paramotorairshow": "Paramotor Air Show",
+    "aerialvideography": "Aerial Videography",
+    "partnership": "Partnership"
+  },
+ "work_names": {
+      "ourgallery":"Gallery",
+      "gallery": "Gallery",
+      "mediacoverage": "Media Coverage",
+      "airshows": "Airshows"
+    }
+  }
+}

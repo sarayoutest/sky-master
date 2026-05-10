@@ -1,0 +1,33 @@
+{
+  "welcome_title": "مرحباً بكم في",
+  "hero_main_title": "وجهتكم الجوية الأمثل",
+  "hero_subtitle": "مغامرتك تبدأ بالتحليق من هنا!",
+  "experience_text": "عِش تجربة الحرية المطلقة معنا الآن!",
+  "btn_learn_more": "لمعرفة المزيد ←",
+
+  "nav": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "services": "خدماتنا",
+    "store": "المتجر",
+    "work": "أعمالنا",
+    "contact": "اتصل بنا",
+    "indiv_services": "خدمات الأفراد",
+    "corp_services": "خدمات الشركات",
+    "menu": "القائمة",
+    "services_names": {
+    "paratrikeairtours": "جولات باراترايك الجوية",
+    "paramotortraining": "تدريب باراموتور",
+    "otherservices": "خدمات أخرى",
+    "paramotorairshow": "عروض باراموتور الجوية",
+    "aerialvideography": "تصوير جوي سينمائي",
+    "partnership": "الشراكات"
+  },
+  "work_names": {
+      "gallery": "معرض الصور",
+      "ourgallery": "معرض الصور",
+      "mediacoverage": "التغطية الإعلامية",
+      "airshows": "العروض الجوية"
+    }
+  }
+}
