@@ -8,15 +8,17 @@ import {
 } from "@mui/material";
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
-
+import img55 from "../assets/images/55.png";
+import imgRect from "../assets/images/Rectangle.png";
+import heroImg from "../assets/images/4.png";
 // نفترض أن هذه هي البيانات الخاصة بك
 const galleryItems = [
-  { id: 1, type: 'video', image: '/src/assets/images/55.png' },
-  { id: 2, type: 'image', image: '/src/assets/images/55.png' },
-  { id: 3, type: 'image', image: '/src/assets/images/Rectangle.png' },
-  { id: 4, type: 'image', image: '/src/assets/images/Rectangle.png' },
-  { id: 5, type: 'video', image: '/src/assets/images/Rectangle.png' },
-  { id: 6, type: 'image', image: '/src/assets/images/55.png' },
+  { id: 1, type: 'video', image: img55 },
+  { id: 2, type: 'image', image: img55 },
+  { id: 3, type: 'image', image: imgRect },
+  { id: 4, type: 'image', image: imgRect },
+  { id: 5, type: 'video', image: imgRect },
+  { id: 6, type: 'image', image: img55 },
 ];
 
 export default function OurGallery() {
@@ -27,7 +29,7 @@ export default function OurGallery() {
         sx={{
           position: "relative",
           height: { xs: 260, sm: 360, md: 450 },
-          backgroundImage: `url(/src/assets/images/4.png)`,
+         backgroundImage: `url(${heroImg})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundPosition: "center",
