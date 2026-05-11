@@ -221,7 +221,7 @@ useEffect(() => {
 
                 <MenuItem value="Economy">Economy</MenuItem>
                 <MenuItem value="Business">Business</MenuItem>
-                <MenuItem value="First Clas">First Class</MenuItem>
+                <MenuItem value="First Class">First Class</MenuItem>
               </TextField>
             </Box>
 
@@ -374,7 +374,7 @@ const handleCardClick = (pkg) => {
  <Box
   sx={{
     py: 4,
-    backgroundImage: `linear-gradient(rgba(55,31,112,.1), rgba(55,31,112,1)), `url(${img22})`,
+    backgroundImage: `linear-gradient(rgba(55,31,112,.1), rgba(55,31,112,1)), url(${bgImage1})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
   }}
@@ -1133,7 +1133,7 @@ const LatestWork = () => {
         >
           <Box
             component="img"
-            src=`url(${img9})`
+            src={img9}
             sx={{
 
               width: {xs: "130%", md: "100%"},
