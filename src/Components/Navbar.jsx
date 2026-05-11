@@ -28,7 +28,7 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Link, useNavigate } from "react-router-dom";
 import routes from "../routes";
-import logo from "../assets/images/Logo.svg";
+import logo from "../assets/images/logo.svg";
 /* ===== Shared Styles ===== */
 const navBtn = {
   color: "#6b5a86",
