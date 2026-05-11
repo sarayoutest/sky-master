@@ -17,7 +17,7 @@ import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import NorthEastIcon from "@mui/icons-material/NorthEast";
 import Play from "@mui/icons-material/PlayArrow";
-
+import img5 from "../assets/images/5.png";
 // Swiper imports if used
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -71,7 +71,7 @@ useEffect(() => {
           position: "relative",
           // height: { xs: 300, sm: 360, md: 520 },    
           // width:"100%",
-          backgroundImage: "url('/src/assets/images/5.png')",
+          backgroundImage: `url(${img5})`
           backgroundSize: "cover",
           backgroundPosition: "center",
           borderRadius: { xs: 2, md: 3 },
