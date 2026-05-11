@@ -19,6 +19,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import PublicIcon from "@mui/icons-material/Public";
 import footerBg from "../assets/images/9.png";
 import { Images } from "lucide-react";
+import logo from "../assets/images/Logo.svg";
 const footerHover = {
   fontSize: "14px",
   cursor: "pointer",
@@ -76,7 +77,7 @@ const Footer = () => {
                 {/* Logo */}
                 <Link to="/">
                   <img
-                    src="/src/assets/images/Logo.svg"
+                     src={logo}
                     alt="Logo"
                     style={{ height: 60 }}
                   />
