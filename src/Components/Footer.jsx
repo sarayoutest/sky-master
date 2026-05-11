@@ -19,7 +19,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import PublicIcon from "@mui/icons-material/Public";
 import footerBg from "../assets/images/9.png";
 import { Images } from "lucide-react";
-import logo from "../assets/images/Logo.svg";
+import logo from "../assets/images/logo.svg";
 const footerHover = {
   fontSize: "14px",
   cursor: "pointer",
