@@ -28,7 +28,7 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Link, useNavigate } from "react-router-dom";
 import routes from "../routes";
-
+import logo from "../assets/images/Logo.svg";
 /* ===== Shared Styles ===== */
 const navBtn = {
   color: "#6b5a86",
@@ -101,7 +101,7 @@ const [mobileWorkOpen, setMobileWorkOpen] = useState(false);
   <Box>
     <Link to="/">
       <img
-        src="./src/assets/images/logo.svg"
+       src={logo}
         alt="logo"
         style={{ height: isMobile ? 38 : 50 }}
       />
