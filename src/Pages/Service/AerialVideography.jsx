@@ -4,7 +4,7 @@ import { Typography, Box,Stack ,Button ,Container,Divider ,
 import heroImage from "/src/assets/images/aerial.png";
 import overlayImage from "/src/assets/images/11.png";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import img11 from "/src/assets/images/Rectangle.png";
 import { useForm, Controller } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { contactSchema } from "../../schemas/contactSchema";
@@ -199,7 +199,8 @@ export default function AerialVideography() {
                     >
                       <Box
                         component="img"
-                        src="/src/assets/images/Rectangle.png"
+                        src= {img11}
+                       
                         sx={{
 
                           width: {xs: "130%", md: "100%"},
