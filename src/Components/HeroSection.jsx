@@ -18,6 +18,11 @@ import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import NorthEastIcon from "@mui/icons-material/NorthEast";
 import Play from "@mui/icons-material/PlayArrow";
 import img5 from "../assets/images/5.png";
+import bgImage from "../assets/images/7.png"; 
+import bgImage1 from "../assets/images/22.png";
+import img8 from "../assets/images/8.png";
+import img8 from "../assets/images/3.png";
+import img8 from "../assets/images/Rectangle.png";
 // Swiper imports if used
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -369,7 +374,7 @@ const handleCardClick = (pkg) => {
  <Box
   sx={{
     py: 4,
-    backgroundImage: `linear-gradient(rgba(55,31,112,.1), rgba(55,31,112,1)), url('/src/assets/images/22.png')`,
+    backgroundImage: `linear-gradient(rgba(55,31,112,.1), rgba(55,31,112,1)), `url(${img22})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
   }}
@@ -412,7 +417,7 @@ const handleCardClick = (pkg) => {
 
       <Box
         component="img"
-        src="/src/assets/images/8.png"
+        src=`url(${img8})`
         sx={{
           display: { xs: "none", md: "block" }, 
           width: "100%",
@@ -687,7 +692,7 @@ const IndividualServices = () => {
         >
           <Box
             component="img"
-            src="/src/assets/images/3.png"
+            src= `url(${img3})`
             sx={{
               width: "100%",
               height: "100%",
@@ -755,7 +760,7 @@ const CorporateServices = () => {
     <Box
       sx={{
         py: 1,
-        backgroundImage: "url('/src/assets/images/7.png')",
+        backgroundImage: `url(${bgImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         minHeight: "270px",
@@ -951,7 +956,7 @@ const LatestWork = () => {
           >
             <Box
               component="img"
-              src="/src/assets/images/5.png"
+              src=`url(${img5})`
               sx={{
                 width: "100%",
                 
@@ -1046,7 +1051,7 @@ const LatestWork = () => {
       >
         <Box
           component="img"
-          src="/src/assets/images/3.png"
+          src=`url(${img3})`
           sx={{
             width: { xs: 161, sm: 161, md: 285 },
             height: { xs: 106, md: 189 },
@@ -1128,7 +1133,7 @@ const LatestWork = () => {
         >
           <Box
             component="img"
-            src="/src/assets/images/Rectangle.png"
+            src=`url(${img9})`
             sx={{
 
               width: {xs: "130%", md: "100%"},
