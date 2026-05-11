@@ -21,8 +21,8 @@ import img5 from "../assets/images/5.png";
 import bgImage from "../assets/images/7.png"; 
 import bgImage1 from "../assets/images/22.png";
 import img8 from "../assets/images/8.png";
-import img8 from "../assets/images/3.png";
-import img8 from "../assets/images/Rectangle.png";
+import img3 from "../assets/images/3.png";
+import img9 from "../assets/images/Rectangle.png";
 // Swiper imports if used
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -76,7 +76,7 @@ useEffect(() => {
           position: "relative",
           // height: { xs: 300, sm: 360, md: 520 },    
           // width:"100%",
-          backgroundImage: `url(${img5})`
+          backgroundImage: `url(${img5})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           borderRadius: { xs: 2, md: 3 },
@@ -417,7 +417,7 @@ const handleCardClick = (pkg) => {
 
       <Box
         component="img"
-        src=`url(${img8})`
+        src={img8}
         sx={{
           display: { xs: "none", md: "block" }, 
           width: "100%",
@@ -692,7 +692,7 @@ const IndividualServices = () => {
         >
           <Box
             component="img"
-            src= `url(${img3})`
+            src={img3}
             sx={{
               width: "100%",
               height: "100%",
@@ -956,7 +956,7 @@ const LatestWork = () => {
           >
             <Box
               component="img"
-              src=`url(${img5})`
+              src={img5}
               sx={{
                 width: "100%",
                 
@@ -1051,7 +1051,7 @@ const LatestWork = () => {
       >
         <Box
           component="img"
-          src=`url(${img3})`
+          src={img3}
           sx={{
             width: { xs: 161, sm: 161, md: 285 },
             height: { xs: 106, md: 189 },
