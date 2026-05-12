@@ -18,16 +18,20 @@ import { useUser } from "../../context/UserContext";
 import { Snackbar, Alert, CircularProgress } from "@mui/material";
 import { useTranslation } from "react-i18next";
 
-import heroImage from "/src/assets/images/with.png";
-import overlayImage from "/src/assets/images/11.png";
+import heroImage from "../../assets/images/with.png";
+import overlayImage from "../../assets/images/11.png";
+import img7 from "../../assets/images/image7.png";
+import img6 from "../../assets/images/image6.png";
+import img8 from "../../assets/images/image8.png";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 export default function Partnership() {
   const images = [
-    { id: 1, imgs: ["/src/assets/images/image7.png"] },
-    { id: 2, imgs: ["/src/assets/images/image6.png"] },
-    { id: 3, imgs: ["/src/assets/images/image8.png"] },
+    { id: 1, imgs: [img7] },
+  { id: 2, imgs: [img6] },
+  { id: 3, imgs: [img8] },
   ];
   const { i18n } = useTranslation();
   const lang = i18n.language;
