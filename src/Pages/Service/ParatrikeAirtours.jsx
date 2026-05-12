@@ -10,11 +10,18 @@ import {
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import heroImage from "/src/assets/images/1.png";
-import overlayImage from "/src/assets/images/11.png";
-import coursesBg from "/src/assets/images/7.png";
+import heroImage from "../../assets/images/1.png";
+import overlayImage from "../../assets/images/11.png";
+import coursesBg from "../../assets/images/7.png";
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import ShortcutIcon from '@mui/icons-material/Shortcut';
+import vector3 from "../../assets/images/vector (3).svg";
+import vector1 from "../../assets/images/vector (1).svg";
+import vector2 from "../../assets/images/vector (2).svg";
+import vector5 from "../../assets/images/vector (5).svg";
+import vector4 from "../../assets/images/1.svg";
+import vector from "../../assets/images/vector";
+import vec from "../../assets/images/2.svg";
 
 export default function ParatrikeAirtours() {
 
@@ -49,19 +56,19 @@ export default function ParatrikeAirtours() {
   // بيانات الخدمات الإضافية
   const extraServicesInitial = [
     {
-      icon: "/src/assets/images/1.svg",
+      icon: vector4,
       title: "Video Editing",
       desc: "* We'll professionally edit your flight video into a shareable video.",
       price: "350 QAR/Per flight",
     },
     {
-      icon: "/src/assets/images/vector (1).svg",
+      icon: vector1,
       title: "Controlling experience",
       desc: "* You can control the flight (altitude & direction) under the supervision of the pilot.",
       price: "100 QAR/Per flight",
     },
     {
-      icon: "/src/assets/images/vector (2).svg",
+      icon:vector2,
       title: "Maneuvers",
       desc: "* Add an extra thrill to your flight with special aerial maneuvers performed by your pilot.",
       price: "150 QAR/Per flight",
@@ -70,13 +77,13 @@ export default function ParatrikeAirtours() {
 
   const extraServicesMore = [
     {
-      icon: "/src/assets/images/vector (3).svg",
+      icon: vector3,
       title: "Extended Flight",
       desc: "* Enjoy a longer airtime experience.",
       price: "200 QAR/Per flight",
     },
     {
-      icon: "/src/assets/images/vector (5).svg",
+      icon: vector5,
       title: "Sunset Flight",
       desc: "* Experience a magical sunset view from the sky.",
       price: "250 QAR/Per flight",
@@ -153,7 +160,7 @@ export default function ParatrikeAirtours() {
     >
       <Box
         component="img"
-        src="/src/assets/images/vector.svg"
+        src={vector}
         sx={{ width: 28 }}
       />
     
@@ -199,7 +206,9 @@ export default function ParatrikeAirtours() {
         flexDirection: "row",
       }}
     >
-      <Box component="img" src="/src/assets/images/2.svg" sx={{ width: 30 }} />
+      <Box component="img" 
+        src={vec}
+        sx={{ width: 30 }} />
       <Typography sx={{ color: "#FE5900", fontWeight: 500 }}>
         No experience is required! All flights are fully operated and
         controlled by our expert pilots, so you can sit back, relax, and
