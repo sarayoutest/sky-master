@@ -24,9 +24,9 @@ import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 
 
-import heroImage from "/src/assets/images/4.png";
-import overlayImage from "/src/assets/images/11.png";
-import coursesBg from "/src/assets/images/7.png";
+import heroImage from "../../assets/images/4.png";
+import overlayImage from "../../assets/images/11.png";
+import coursesBg from "../../assets/images/7.png";
 
 export default function ParamotorTraining() {
   const trainingModules = [
