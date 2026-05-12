@@ -199,10 +199,8 @@ export default function AerialVideography() {
                     >
                       <Box
                         component="img"
-                        src= {img11}
-                       
+                        src={img11}
                         sx={{
-
                           width: {xs: "130%", md: "100%"},
                           height: {xs: "100%", md: "100%"},
                           objectFit: "cover",
