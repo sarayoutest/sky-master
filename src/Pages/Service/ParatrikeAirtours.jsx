@@ -20,7 +20,7 @@ import vector1 from "../../assets/images/Vector (1).svg";
 import vector2 from "../../assets/images/Vector (2).svg";
 import vector5 from "../../assets/images/Vector (5).svg";
 import vector4 from "../../assets/images/1.svg";
-import vector from "../../assets/images/vector.svg";
+import vector from "../../assets/images/Vector.svg";
 import vec from "../../assets/images/2.svg";
 
 export default function ParatrikeAirtours() {
