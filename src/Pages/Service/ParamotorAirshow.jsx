@@ -2,8 +2,9 @@ import React, {  useEffect }  from "react";
 
 import { Box, Container, Typography, Stack, Button, Divider, TextField, InputAdornment, Select, MenuItem } from "@mui/material";
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
-import heroImage from "/src/assets/images/44.png";
-import overlayImage from "/src/assets/images/11.png";
+import heroImage from "../../assets/images/44.png";
+import overlayImage from "../../assets/images/11.png";
+import img5 from "../../assets/images/5.png";
 import { useForm, Controller } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { contactSchema } from "../../schemas/contactSchema";
@@ -210,7 +211,7 @@ useEffect(() => {
       >
         <Box
           component="img"
-          src="/src/assets/images/5.png"
+          src={img5}
           sx={{
             width: "100%",
             height: "100%",
