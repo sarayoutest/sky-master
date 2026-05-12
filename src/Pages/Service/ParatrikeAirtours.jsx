@@ -15,13 +15,13 @@ import overlayImage from "../../assets/images/11.png";
 import coursesBg from "../../assets/images/7.png";
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import ShortcutIcon from '@mui/icons-material/Shortcut';
-import vector3 from "/src/assets/images/Vector (3).svg";
-import vector1 from "/src/assets/images/Vector (1).svg";
-import vector2 from "/src/assets/images/Vector (2).svg";
-import vector5 from "/src/assets/images/Vector (5).svg";
-import vector4 from "/src/assets/images/1.svg";
-import vector from "/src/assets/images/vector";
-import vec from "/src/assets/images/2.svg";
+import vector3 from "../../assets/images/Vector (3).svg";
+import vector1 from "../../assets/images/Vector (1).svg";
+import vector2 from "../../assets/images/Vector (2).svg";
+import vector5 from "../../assets/images/Vector (5).svg";
+import vector4 from "../../assets/images/1.svg";
+import vector from "../../assets/images/vector";
+import vec from "../../assets/images/2.svg";
 
 export default function ParatrikeAirtours() {
 
