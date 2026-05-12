@@ -8,9 +8,9 @@ import {
 } from "@mui/material";
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
-import img55 from "../assets/images/55.png";
-import imgRect from "../assets/images/Rectangle.png";
-import heroImg from "../assets/images/4.png";
+import img55 from "../../assets/images/55.png";
+import imgRect from "../../assets/images/Rectangle.png";
+import heroImg from "../../assets/images/4.png";
 // نفترض أن هذه هي البيانات الخاصة بك
 const galleryItems = [
   { id: 1, type: 'video', image: img55 },
