@@ -27,6 +27,7 @@ import { useNavigate } from "react-router-dom";
 import heroImage from "../../assets/images/4.png";
 import overlayImage from "../../assets/images/11.png";
 import coursesBg from "../../assets/images/7.png";
+import img1 from "../../assets/images/Vector.svg";
 
 export default function ParamotorTraining() {
   const trainingModules = [
@@ -218,7 +219,9 @@ const navigate = useNavigate();
                 flexDirection: "row",
               }}
             >
-              <Box component="img" src="/src/assets/images/vector.svg" sx={{ width: 28 }} />
+              <Box component="img"
+                src={img1}
+                sx={{ width: 28 }} />
 
               <Typography variant="h5" fontWeight="700" color="rgba(55,31,112,1)">
                 Who Can Join ?
